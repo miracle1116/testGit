@@ -12,11 +12,13 @@ public class MainActivity extends AppCompatActivity {
     private TextView resultTxt;
     private EditText firstNum, secondNum;
     private Button comBtn;
+    private Button comBtn2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         resultTxt=findViewById(R.id.resultTxt);
         firstNum= findViewById(R.id.firstNum);
